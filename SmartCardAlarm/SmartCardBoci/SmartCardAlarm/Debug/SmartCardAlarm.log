@@ -1,0 +1,21 @@
+﻿Build started 2015.04.07. 13:48:54.
+     1>Project "C:\!Adatok\own\SmartCardAlarm\SmartCardAlarm\SmartCardAlarm.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\SmartCardAlarm.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt SmartCardAlarm.cpp
+         SmartCardAlarm.cpp
+     1>c:\!adatok\own\smartcardalarm\smartcardalarm\resource.h(6): warning C4005: 'IDI_APPLICATION' : macro redefinition
+                 c:\program files (x86)\windows kits\8.0\include\um\winuser.h(10418) : see previous definition of 'IDI_APPLICATION'
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.0\bin\x86\rc.exe /D _UNICODE /D UNICODE /l"0x0409" /nologo /fo"Debug\SmartCardAlarm.res" SmartCardAlarm.rc 
+     1>C:\Program Files (x86)\Windows Kits\8.0\Include\um\winuser.rh(1323): warning RC4005: 'IDI_APPLICATION' : redefinition
+         
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\!Adatok\own\SmartCardAlarm\Debug\SmartCardAlarm.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib Wtsapi32.lib Winscard.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\!Adatok\own\SmartCardAlarm\Debug\SmartCardAlarm.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\!Adatok\own\SmartCardAlarm\Debug\SmartCardAlarm.lib" /MACHINE:X86 Debug\SmartCardAlarm.res
+         Debug\SmartCardAlarm.obj
+         Debug\stdafx.obj
+         SmartCardAlarm.vcxproj -> C:\!Adatok\own\SmartCardAlarm\Debug\SmartCardAlarm.exe
+     1>Done Building Project "C:\!Adatok\own\SmartCardAlarm\SmartCardAlarm\SmartCardAlarm.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.17

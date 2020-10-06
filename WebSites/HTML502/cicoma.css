@@ -1,0 +1,325 @@
+﻿body {
+    
+}
+
+ul
+{
+    height: 0.7em;
+    font-size: 4em;
+    font-family: 'Times New Roman', serif;
+    font-weight: bold;
+    background-color: #fff;
+    overflow: hidden;
+    border-bottom: 1px solid red;
+}
+
+li
+{
+    display: inline-block;
+    color: #ff910b;
+    padding-left: 1em;
+    vertical-align: bottom;
+    margin-top: -1em;
+    cursor: cell;
+}
+
+    li.selected
+    {
+        color: #f44;
+        margin-bottom: 0.1em;
+    }
+
+    li:hover
+    {
+        color: #f00;
+        margin-bottom: 0.2em;
+    }
+
+    
+
+
+
+thead
+{
+    background-color: #808080;
+}
+
+th
+{
+    background-color: #808080;
+}
+
+
+tr:nth-child(even)
+{
+    background-color: #cecccc;
+}
+
+
+
+body
+
+{
+
+    font-family: Arial, sans-serif;
+
+    font-size: 0.8em;
+
+   
+
+}
+
+
+
+
+form
+
+{
+
+    display: table;
+
+    border-spacing: 0.3em;
+
+}
+
+
+
+
+fieldset
+
+{
+
+    border: 0;
+
+    background-color: #d6d6d6;
+
+    padding: 0.5em;
+
+    padding-top: 2em;
+
+    color: #515151;
+
+}
+
+
+
+
+fieldset:nth-child(odd)
+
+{
+
+    background-color: #cacaca;
+
+}
+
+
+
+
+legend
+
+{
+
+    padding: 0;
+
+    margin-top: -1.7em;
+
+    font-weight: bold;
+
+    position: absolute;
+
+    color: #515151;
+
+}
+
+
+
+
+fieldset > div:not(.note)
+
+{
+
+    padding-top: 1em;
+
+    display: table-row;
+
+}
+
+
+
+
+fieldset > div:not(.note) > *
+
+{
+
+    display: table-cell;
+
+    vertical-align: middle;
+
+}
+
+
+
+
+label
+
+{
+
+    font-weight: bold;
+
+    padding-right: 0.5em;
+
+    text-align: right;
+
+    min-width: 6em;
+
+}
+
+
+
+
+
+
+
+label:after
+
+{
+
+    content: ":";
+
+}
+
+
+
+
+.note
+
+{
+
+    font-size: 0.7em;
+
+    padding-top: 0;
+
+    padding-bottom: 1em;
+
+}
+
+
+
+
+.note p
+
+{
+
+    margin: 0;
+
+}
+
+
+
+
+legend + .note
+
+{
+
+    display: block;
+
+    margin-top: -1em;
+
+}
+
+
+
+
+input
+
+{
+
+    width: 100%;
+
+}
+
+
+
+
+input:focus
+
+{
+
+    background-color: #f5ff77;
+
+}
+
+
+
+
+input:invalid
+
+{
+
+    background-color: #ff7f7f;
+
+}
+
+[lajos]
+{
+    font-size: 8em;
+}
+
+
+table
+
+{
+
+    display: block;
+
+}
+
+
+
+
+tr
+
+{
+
+    display: block;
+
+}
+
+
+
+
+td
+
+{
+
+    display: block;
+
+}
+
+
+
+
+[data-valmsg-for]
+
+{
+
+    color: red;   
+
+    padding-left: 1em;
+
+    white-space: nowrap;
+
+}
+
+
+
+
+.input-validation-error
+
+{
+
+    background-color: #ffa3a3;
+
+    outline: 1px solid red;
+
+}

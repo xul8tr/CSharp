@@ -1,0 +1,1 @@
+DCF takarítás: foreach blokk kirakva külön methodba. A foreach erosen át lett alakítva, hogy a visszafelé kiiratás is menjen.

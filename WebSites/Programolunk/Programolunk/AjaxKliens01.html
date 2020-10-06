@@ -1,0 +1,32 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+</head>
+<body>
+    <button onclick="Lekerdez()" >nyomj meg!</button>
+    <input id="path" />
+
+    <div id="eredmenyDiv">
+        Ide jon az adat
+    </div>
+
+    <script>
+        function Lekerdez() {
+            var request = new XMLHttpRequest();
+
+            request.onreadystatechange = valamiTortent;
+            request.open("GET", "http://localhost:8080/" + document.getElementById("path").value);
+            request.send();
+        }
+
+        function valamiTortent(e) {
+
+            if (e.target.readyState == XMLHttpRequest.DONE && e.target.status == 200) {
+
+                document.getElementById("eredmenyDiv").innerHTML = e.target.responseText;
+            }
+        }
+    </script>
+</body>
+</html>

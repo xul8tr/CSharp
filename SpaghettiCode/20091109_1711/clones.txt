@@ -1,0 +1,23 @@
+-------------------- CSAnalDuplicatedCodeFinder ------------------------
+  Number of Clone Classes: 2
+  Clone Classes: 
+  Clone Class
+    Number of instances: 5
+    Length: 11
+    Metrics: []
+    Instances: 
+      D:\Projects\SpaghettiCode\SpaghettiCode\Program.cs(36) : [Ln:36, Col:21 - Ln:46, Col:21]
+      D:\Projects\SpaghettiCode\SpaghettiCode\Program.cs(75) : [Ln:75, Col:21 - Ln:85, Col:21]
+      D:\Projects\SpaghettiCode\SpaghettiCode\Program.cs(124) : [Ln:124, Col:21 - Ln:134, Col:21]
+      D:\Projects\SpaghettiCode\SpaghettiCode\Program.cs(153) : [Ln:153, Col:21 - Ln:163, Col:21]
+      D:\Projects\SpaghettiCode\SpaghettiCode\Program.cs(207) : [Ln:207, Col:25 - Ln:217, Col:25]
+
+
+  Clone Class
+    Number of instances: 3
+    Length: 11
+    Metrics: []
+    Instances: 
+      D:\Projects\SpaghettiCode\SpaghettiCode\Program.cs(191) : [Ln:191, Col:17 - Ln:201, Col:17]
+      D:\Projects\SpaghettiCode\SpaghettiCode\Program.cs(246) : [Ln:246, Col:29 - Ln:256, Col:29]
+      D:\Projects\SpaghettiCode\SpaghettiCode\Program.cs(287) : [Ln:287, Col:41 - Ln:297, Col:41]

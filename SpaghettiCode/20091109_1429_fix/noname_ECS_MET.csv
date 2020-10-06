@@ -1,0 +1,23 @@
+Namespace Level Metrics
+UniqueName;QualifiedName;Name;Parent;Component;BCP;DP;FUP;LSP;RHP;
+SpaghettiCode~Ns;SpaghettiCode;SpaghettiCode;global namespace;SpaghettiCode;0;1;0;16;2
+global namespace;global namespace;global namespace;;;0;1;0;16;2
+
+Class Level Metrics
+UniqueName;Kind;Name;QualifiedName;Parent;Component;Path;Line;Col;EndLine;EndCol;BCP;DP;FUP;LSP;RHP;
+SpaghettiCode:Program~Cl;Class;Program;SpaghettiCode.Program;SpaghettiCode~Ns;SpaghettiCode;D:\Projects\SpaghettiCode\SpaghettiCode\Program.cs;11;5;412;5;0;1;0;16;2
+
+Function Level Metrics
+UniqueName;Name;QualifiedName;Parent;Component;Path;Line;Col;EndLine;EndCol;BCP;DP;FUP;LSP;RHP;
+
+Method Level Metrics
+UniqueName;Name;QualifiedName;Parent;Component;Path;Line;Col;EndLine;EndCol;BCP;DP;FUP;LSP;RHP;
+SpaghettiCode:Program.Main@System:Void~St@(System:String~Cl[])~Fm;Main;SpaghettiCode.Program.Main;SpaghettiCode:Program~Cl;SpaghettiCode;D:\Projects\SpaghettiCode\SpaghettiCode\Program.cs;13;9;411;9;0;0;0;15;0
+
+Component Level Metrics
+UniqueName;BCP;DP;FUP;LSP;RHP;
+SpaghettiCode;0;1;0;16;2
+
+Class Parts Level Metrics
+UniqueName;Kind;Parent;Component;Path;Line;Col;EndLine;EndCol;
+

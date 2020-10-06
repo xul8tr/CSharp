@@ -1,0 +1,88 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <style>
+        video
+        {
+            border:  1px solid red;
+        }
+        
+    </style>
+</head>
+<body>
+
+   
+
+    <video id="film" controls="controls" preload="metadata" width="320"  >
+        <source src="http://praegnanz.de/html5video/player/video_SD.mp4" type="video/mp4" />
+        <source src="http://praegnanz.de/html5video/player/video_SD.webm" type="video/webm" />
+    </video>
+
+<button id="playpausegomb" onclick="start()">start</button>
+   
+    <button id="mutegomb" onclick="mute()">mute</button>
+
+    <div style="border: 1px solid black;position: relative; height: 20px; width: 200px;">
+        <div id="volumecsik"  style="background-color: #00ff21; width: 50%; height: 20px; position: absolute;">
+
+        </div>
+    </div>
+
+    <span id="ido">--</span>
+
+    <script>
+        var velem = document.getElementById("film");
+
+        velem.addEventListener("volumechange", updatevolume);
+        velem.addEventListener("timeupdate", updateido);
+
+        function updateido() {
+            var idospan = document.getElementById("ido");
+
+            var tim = new Date(0, 0, 0, 0, 0, velem.currentTime);
+
+            var orak = tim.getHours();
+            if (orak < 10) orak = "0" + orak;
+
+            var percek = tim.getMinutes();
+            if (percek < 10) percek = "0" + percek;
+
+            var masodpercek = tim.getSeconds();
+            if (masodpercek < 10) masodpercek = "0" + masodpercek;
+
+            idospan.innerHTML = orak + ":" + percek + ":" + masodpercek + " / " + velem.duration;
+
+
+        }
+
+        function updatevolume() {
+            var vcs = document.getElementById("volumecsik");
+            var ertek = Math.round(velem.volume * 100) + "%";
+
+            vcs.style.setProperty("width", ertek);
+
+        }
+
+        function start() {
+            var ppgomb = document.getElementById("playpausegomb");
+
+            if (velem.ended || velem.paused) {
+                velem.play();
+                ppgomb.innerHTML = "stop";
+            }
+            else {
+                velem.pause();
+                ppgomb.innerHTML = "start";
+            }
+
+            alert();
+        }
+
+        function mute() {
+            velem.muted = true;
+        }
+
+    </script>
+</body>
+</html>

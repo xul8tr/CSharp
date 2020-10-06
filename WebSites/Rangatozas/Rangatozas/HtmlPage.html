@@ -1,0 +1,39 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <style>
+        #cucc
+        {
+            background-color: #ffd800;
+            width: 300px;
+            height: 100px;
+        }
+
+        #doboz
+        {
+            background-color: #ffd8af;
+            width: 300px;
+            height: 100px;
+        }
+
+    </style>
+    <script type="text/javascript" src="Scripts/jquery-1.6.2.min.js"></script>
+    <script type="text/javascript" src="draggelo.js" defer="defer" ></script>
+</head>
+<body>
+
+    <img src="commodore-64.jpg" />
+    <br />
+    <a href="http://www.itfactory.hu">It Factory</a>
+    <div id="cucc" draggable="true" onmousemove="iehack(event)" ondragstart="megrantottak(event)" ondragend="elejtettek(event)" ondrag="huznak(event)" >
+        Ez dobalhato
+    </div>
+
+    <div id="doboz" ondragenter="folemhuztak(event)" ondragleave="elvittek(event)" ondragover="folottemvan(event)" ondrop="ramdobtak(event)">
+        ide pakolj
+    </div>
+
+
+</body>
+</html>

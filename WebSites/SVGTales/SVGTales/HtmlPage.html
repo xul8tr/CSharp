@@ -1,0 +1,226 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <style>
+
+        body
+        {
+            font-family: Forte;
+            font-size: 30px;
+        }
+        
+        svg
+        {
+            border: 1px solid green;
+        }
+
+        #bezier
+        {
+            fill: #FF750f;
+            stroke: none;
+            marker: url();
+        }
+
+        polygon, polyline
+        {
+            fill: none;
+            stroke-width: 1;
+        }
+
+        line
+        {
+            stroke-width: 2;
+            stroke: black;
+            stroke-linecap: round;
+        }
+
+        #fej
+        {
+            fill: #ffe1c4;
+            stroke: none;
+        }
+
+            /*#fej:hover
+            {
+                fill: red;
+            }*/
+
+        #ellipszis
+        {
+            fill: white;
+            stroke: none;
+        }
+
+        #borso, #talp
+        {
+            fill: black;
+        }
+
+        #eles
+        {
+            fill: #256953;
+            stroke: none;
+        }
+
+        #karikak circle
+        {
+            fill: #33cc00;
+            stroke: black;
+            stroke-width: 1;
+            fill-opacity: 1;
+            stroke-opacity:1;
+        }
+        
+        #sym-bab, #puha, #karika, #karikak circle:first-child
+        {
+            fill: #33cc00;
+            stroke: none;
+        }
+
+        #blokk, #galler
+        {
+            fill: #02a802;
+            stroke: none;
+        }
+    </style>
+    <script src="jquery-1.6.2_202818.js"></script>
+</head>
+<body>
+    <svg width="260" height="400" id="rajzlap">
+        <defs>
+            <symbol id="sym-bab" stroke="black" fill="crimson">
+                <path d="M 205,79 C 191,79 217,180 243,169 C 276,145 225,68 205,79" />
+            </symbol>
+            <path id="talp" d="M 125,291 q 37,-10 74,0 z" stroke="black" fill="none" />
+
+            <marker id="mKezd" markerWidth="10" markerHeight="10" refX="5" refY="5" orient="auto">
+                <circle cx="5" cy="5" r="4" fill="none" stroke="black" />
+            </marker>
+            <marker id="mKozben" markerWidth="6" markerHeight="10"  refX="4" refY="4" orient="auto">
+                <path d="M 0 0 4 4 0 8" fill="none" stroke="black" />
+            </marker>
+            <marker id="mVege" markerWidth="5" markerHeight="10"  refX="5" refY="5" orient="auto">
+                <path d="M 0 0 5 5 0 10 Z" fill="black" />
+            </marker>
+
+            <lineargradient id="szinatmenet">
+                <stop stop-color="yellow" offset="0%"/>
+                <stop stop-color="green" offset="100%"/>
+            </lineargradient>
+
+            <pattern id="hatter" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
+                <circle cx="10" cy="10" r="8" fill="#eee" />
+                <circle cx="5" cy="7" r="5" fill="#ddd" />
+            </pattern>
+
+            <clipPath id="keret">
+                <ellipse cx="130" cy="200" rx="130" ry="200" />
+            </clipPath>
+        </defs>
+
+        <rect x="0" y="0" width="260" height="400" fill="url(#hatter)" clip-path="url(#keret)" />
+
+        <g id="Kyle">
+
+            <animateTransform attributeType="XML" 
+                attributeName="transform" type="scale" from="0.5" to="1" begin="0s" dur="4s" fill="freeze" />
+
+            <animateTransform attributeType="XML" additive="sum"
+                attributeName="transform" type="translate" from="130" to="0" begin="0s" dur="4s" fill="freeze" />
+
+        <rect id="eles" x="67" y="265" width="126" height="25" stroke="black" fill="none" />
+        
+        <g id="test">
+            <path id="bezier" transform="translate(0,70)" d="M 130,205 C 110,205 42,199 45,184 C 49,160, 55,129 70,114 L 130,114"
+                stroke="black" fill="none" marker-start="url(#mKezd)" marker-mid="url(#mKozben)"
+                marker-end="url(#mVege)" />
+            <path d="M 76,223 C 70,228 70,239 68,252" stroke="black" fill="none" />
+            <path id="galler" d="M 128,215 C 88,215 76,207 70,184 L 124,207 C 130,211 128,215 128,215" />
+        </g>
+
+        <use xlink:href="#test" transform="translate(260,0) scale(-1,1)" />
+
+        <circle id="fej" cx="130" cy="118" r="90" stroke="black" fill="none" />
+
+        <rect id="puha" x="40" y="10" width="180" height="80"  stroke="black" fill="none" rx="10" ry="10" />
+        <path id="viadukt" d="M 40,81 q 90,-40 180,0" stroke="black" fill="none" />
+
+        <ellipse id="ellipszis" transform="rotate(20)" cx="140" cy="81" rx="25" ry="32" stroke="red" stroke-width="3" fill="yellow" />
+        <use xlink:href="#ellipszis" transform="translate(260) scale(-1,1)" />
+
+        <path id="szaj" d="M 116,181 q 14,7 28,0" stroke="black" fill="none" />
+
+        <circle id="borso" cx="146" cy="124" r="3" stroke="black" fill="green" />
+        <use xlink:href="#borso" x="-32" />
+
+        <use xlink:href="#sym-bab" x="0" y="0" />
+        <use xlink:href="#sym-bab" transform="translate(260,0) scale(-1,1)"/>
+
+
+        <path id="blokk" d="M 211,46 h -162 v 53 q 90,-40 162,0 z" stroke="black" fill="none" />
+
+        <line id="vonal" x1="130" y1="215" x2="130" y2="275" stroke="red" stroke-width="15" stroke-linecap="butt" stroke-dasharray="5 4"  />
+
+        <g id="karikak">
+            <circle id="karika" cx="58" cy="252" r="15" stroke="black" fill="red" />
+            <circle id="kiskarika" cx="70" cy="250" r="7" stroke="Cyan" fill="Yellow" stroke-width="5" stroke-opacity="0.5" fill-opacity="0.8" />
+        </g>
+        <use xlink:href="#karikak" transform="translate(260) scale(-1,1)" />
+
+        <polyline id="pline" points="140.5,223 140.5,263 168,263 168,223" fill="orange" stroke="black" />
+        <polygon id="pgon" points="92,223 106,238 119.5,223" fill="none" stroke="black" stroke-width="5" stroke-linejoin="miter" stroke-miterlimit="2" />
+        <use xlink:href="#pline" transform="translate(-48.5)" />
+        <use xlink:href="#pgon" x="48.5" />
+
+        <use xlink:href="#talp">                   
+                <animatetransform attributetype ="XML" attributename ="transform" type="translate"
+                from="0 -2" to="0 2" repeatcount="8" begin="0s" dur="0.5s" fill="none" />
+        </use>
+
+        <use xlink:href="#talp" x="-70">
+                <animatetransform attributetype ="XML" attributename ="transform" type="translate"
+        from="0 2" to="0 -2" repeatcount="8" begin="0s" dur="0.5s" fill="none" />
+        </use>
+
+        </g>
+
+        <text x="130" y="380" text-anchor="middle" fill="url(#szinatmenet)" stroke="black">
+            <!--K<tspan fill="Yellow" dx="10" rotate="180">y</tspan><tspan dx="-13" dy="10">l</tspan><tspan dy="-10">e</tspan>-->
+            <tspan dy="0 0 10 -10" rotate="0 180 0 0" dx="0 10 -13 0" >Kyle</tspan>
+        </text>
+
+        <text x="130" y="380" text-anchor="end" font-size="50" font-family="Mesquite Std">
+            <textPath textLength="200" startOffset="12%"  xlink:href="#szovegvonal">
+                    <animateColor attributeName ="fill"
+begin="0s" dur="4s" from="#fff" to="#000" fill="freeze"/>
+                South Park
+            </textPath>
+        </text>
+
+        <path id="szovegvonal" d="M 10 390 q 125,-80 250,0" visibility="hidden" />
+
+    </svg>
+    <script type="text/javascript" src="jquery-1.6.2.js"></script>
+    <script>
+
+        this.onmousemove = function (e) {
+
+            var pupil = document.getElementById("borso");
+            var lap = document.getElementById("rajzlap");
+
+            var y = (e.pageY - ($(lap).offset().top + 124)) / 10 + 124;
+            var x = (e.pageX - ($(lap).offset().left + 146)) / 10 + 146;
+
+            if (y < 104) y = 104;
+            if (y > 138) y = 138;
+
+            if (x < 138) x = 138;
+            if (x > 154) x = 154;
+
+            pupil.setAttribute("cx", x);
+            pupil.setAttribute("cy", y);
+        }
+</script>
+</body>
+</html>

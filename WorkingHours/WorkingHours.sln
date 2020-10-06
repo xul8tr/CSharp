@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkingHours", "WorkingHours\WorkingHours.csproj", "{AEE5156C-B420-4142-9DDE-15F32332BE2D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{D13F741A-0A37-44DA-9EE7-8DC1314DEEC6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AEE5156C-B420-4142-9DDE-15F32332BE2D}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{AEE5156C-B420-4142-9DDE-15F32332BE2D}.Debug|Any CPU.Build.0 = Debug|x86
+		{AEE5156C-B420-4142-9DDE-15F32332BE2D}.Debug|x86.ActiveCfg = Debug|x86
+		{AEE5156C-B420-4142-9DDE-15F32332BE2D}.Debug|x86.Build.0 = Debug|x86
+		{AEE5156C-B420-4142-9DDE-15F32332BE2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AEE5156C-B420-4142-9DDE-15F32332BE2D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AEE5156C-B420-4142-9DDE-15F32332BE2D}.Release|x86.ActiveCfg = Release|x86
+		{AEE5156C-B420-4142-9DDE-15F32332BE2D}.Release|x86.Build.0 = Release|x86
+		{AEE5156C-B420-4142-9DDE-15F32332BE2D}.Release|x86.Deploy.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

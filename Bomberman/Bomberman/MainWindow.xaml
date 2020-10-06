@@ -1,0 +1,46 @@
+﻿<Window x:Class="Bomberman.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Bomberman"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="800" Width="600">
+    
+    <Grid Name="E_MainGrid">
+        <Grid.RowDefinitions>
+            <RowDefinition>
+            </RowDefinition>
+            <RowDefinition Height="150">
+            </RowDefinition>
+        </Grid.RowDefinitions>
+
+        <Grid Name="E_GameBoard" Grid.Row="0">
+            
+        </Grid>
+        <Grid Grid.Row="1">
+            <Border Background="Silver" >
+                <Grid>
+                    <StackPanel HorizontalAlignment="Left" VerticalAlignment="Center">
+                        <Label Content="Steps elapsed:" FontSize="20" />
+                        <Label Name="E_StepsElapsedLabel" Content="{Binding StepsElapsed}" FontSize="20" HorizontalAlignment="Center" FontWeight="Bold" />
+                        <Label Content="Number of mines left:" FontSize="20" />
+                        <Label Name="E_MinesLeftLabel" Content="{Binding MinesLeft}" FontSize="20" HorizontalAlignment="Center" FontWeight="Bold" />
+                    </StackPanel>
+                    <Button x:Name="PausePlayButton" Height="100" Width="100" VerticalAlignment="Top" Margin="5" Click="PausePlayButton_Click">
+                        <Grid>
+                            <Image Name="E_PauseImage" Source="/Bomberman;component/Resources/pause.png" Visibility="Hidden"></Image>
+                            <Image Name="E_PlayImage" Source="/Bomberman;component/Resources/play.png" Margin="5,0,0,0"></Image>
+                        </Grid>
+                    </Button>
+                    <Button x:Name="ResetButton" Content="Restart" Width="100" Height="35" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="5" Click="ResetButton_Click">
+                        
+                    </Button>
+                    <Grid Name="E_TeamsContainer" HorizontalAlignment="Right" Margin="5">
+                        
+                    </Grid>
+                </Grid>
+            </Border>
+        </Grid>
+    </Grid>
+</Window>

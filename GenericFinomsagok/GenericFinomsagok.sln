@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericFinomsagok", "GenericFinomsagok\GenericFinomsagok.csproj", "{A51A8E38-17ED-4826-9736-D5A8BF3BCC6B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Serialization", "Serialization\Serialization.csproj", "{B8478418-7B48-4816-9B23-284D31F76D9D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A51A8E38-17ED-4826-9736-D5A8BF3BCC6B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A51A8E38-17ED-4826-9736-D5A8BF3BCC6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A51A8E38-17ED-4826-9736-D5A8BF3BCC6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A51A8E38-17ED-4826-9736-D5A8BF3BCC6B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8478418-7B48-4816-9B23-284D31F76D9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8478418-7B48-4816-9B23-284D31F76D9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8478418-7B48-4816-9B23-284D31F76D9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8478418-7B48-4816-9B23-284D31F76D9D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

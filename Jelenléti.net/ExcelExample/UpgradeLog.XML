@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="ExcelExample">
+</Property><Property Name="Solution File" Value="c:\!alap\programozas\.netv2\Jelenlét\Jelenléti.net\Jelenléti.net\ExcelExample\ExcelExample.sln">
+</Property><Property Name="User Options File" Value="c:\!alap\programozas\.netv2\Jelenlét\Jelenléti.net\Jelenléti.net\ExcelExample\ExcelExample.suo">
+</Property><Property Name="Date" Value="2005. augusztus 6.">
+</Property><Property Name="Time" Value="9:34">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="ExcelExample.sln" Description="File successfully backed up as c:\!alap\programozas\.netv2\Jelenlét\Jelenléti.net\Jelenléti.net\ExcelExample\Backup\ExcelExample.sln">
+</Event><Event ErrorLevel="0" Project="" Source="ExcelExample.suo" Description="File successfully backed up as c:\!alap\programozas\.netv2\Jelenlét\Jelenléti.net\Jelenléti.net\ExcelExample\Backup\ExcelExample.suo">
+</Event><Event ErrorLevel="0" Project="ExcelExample" Source="ExcelExample.csproj" Description="Project file successfully backed up as c:\!alap\programozas\.netv2\Jelenlét\Jelenléti.net\Jelenléti.net\ExcelExample\Backup\ExcelExample.csproj">
+</Event><Event ErrorLevel="0" Project="ExcelExample" Source="ExcelExample.csproj.user" Description="Project user file successfully backed up as c:\!alap\programozas\.netv2\Jelenlét\Jelenléti.net\Jelenléti.net\ExcelExample\Backup\ExcelExample.csproj.user">
+</Event><Event ErrorLevel="0" Project="ExcelExample" Source="AssemblyInfo.cs" Description="File successfully backed up as c:\!alap\programozas\.netv2\Jelenlét\Jelenléti.net\Jelenléti.net\ExcelExample\Backup\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="ExcelExample" Source="Form1.cs" Description="File successfully backed up as c:\!alap\programozas\.netv2\Jelenlét\Jelenléti.net\Jelenléti.net\ExcelExample\Backup\Form1.cs">
+</Event><Event ErrorLevel="0" Project="ExcelExample" Source="App.ico" Description="File successfully backed up as c:\!alap\programozas\.netv2\Jelenlét\Jelenléti.net\Jelenléti.net\ExcelExample\Backup\App.ico">
+</Event><Event ErrorLevel="0" Project="ExcelExample" Source="Form1.resx" Description="File successfully backed up as c:\!alap\programozas\.netv2\Jelenlét\Jelenléti.net\Jelenléti.net\ExcelExample\Backup\Form1.resx">
+</Event><Event ErrorLevel="0" Project="ExcelExample" Source="ExcelExample.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="ExcelExample" Source="ExcelExample.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="ExcelExample.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="ExcelExample.sln" Description="Converted">
+</Event></UpgradeLog>

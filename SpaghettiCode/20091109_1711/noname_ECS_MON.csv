@@ -1,0 +1,14 @@
+UniqueName;Parent;Kind;Path;Line;Col;EndLine;EndCol;WarningID
+SpaghettiCode:Program~Cl;SpaghettiCode~Ns;Class;D:\Projects\SpaghettiCode\SpaghettiCode\Program.cs;11;5;342;5;ECS1005
+SpaghettiCode:Program~Cl;SpaghettiCode~Ns;Class;D:\Projects\SpaghettiCode\SpaghettiCode\Program.cs;11;5;342;5;ECS2018-1
+SpaghettiCode:Program~Cl;SpaghettiCode~Ns;Class;D:\Projects\SpaghettiCode\SpaghettiCode\Program.cs;11;5;342;5;ECS2018-2
+SpaghettiCode:Program~Cl;SpaghettiCode~Ns;Class;D:\Projects\SpaghettiCode\SpaghettiCode\Program.cs;11;5;342;5;ECS3025
+SpaghettiCode:Program.WriteChar@System:Void~St@(System:Int32~St$System:Collections:Generic:List<T>~Clg<System:String~Cl>~Gi$System:Int32~St$System:Int32~St)~Fm;SpaghettiCode:Program~Cl;Method;D:\Projects\SpaghettiCode\SpaghettiCode\Program.cs;331;17;338;17;ECS1011
+SpaghettiCode:Program.Main@System:Void~St@(System:String~Cl[])~Fm;SpaghettiCode:Program~Cl;Method;D:\Projects\SpaghettiCode\SpaghettiCode\Program.cs;36;21;46;21;ECS1011
+SpaghettiCode:Program.Main@System:Void~St@(System:String~Cl[])~Fm;SpaghettiCode:Program~Cl;Method;D:\Projects\SpaghettiCode\SpaghettiCode\Program.cs;75;21;85;21;ECS1011
+SpaghettiCode:Program.Main@System:Void~St@(System:String~Cl[])~Fm;SpaghettiCode:Program~Cl;Method;D:\Projects\SpaghettiCode\SpaghettiCode\Program.cs;124;21;134;21;ECS1011
+SpaghettiCode:Program.Main@System:Void~St@(System:String~Cl[])~Fm;SpaghettiCode:Program~Cl;Method;D:\Projects\SpaghettiCode\SpaghettiCode\Program.cs;153;21;163;21;ECS1011
+SpaghettiCode:Program.Main@System:Void~St@(System:String~Cl[])~Fm;SpaghettiCode:Program~Cl;Method;D:\Projects\SpaghettiCode\SpaghettiCode\Program.cs;191;17;201;17;ECS1011
+SpaghettiCode:Program.Main@System:Void~St@(System:String~Cl[])~Fm;SpaghettiCode:Program~Cl;Method;D:\Projects\SpaghettiCode\SpaghettiCode\Program.cs;207;25;217;25;ECS1011
+SpaghettiCode:Program.Main@System:Void~St@(System:String~Cl[])~Fm;SpaghettiCode:Program~Cl;Method;D:\Projects\SpaghettiCode\SpaghettiCode\Program.cs;246;29;256;29;ECS1011
+SpaghettiCode:Program.Main@System:Void~St@(System:String~Cl[])~Fm;SpaghettiCode:Program~Cl;Method;D:\Projects\SpaghettiCode\SpaghettiCode\Program.cs;287;41;297;41;ECS1011

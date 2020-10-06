@@ -1,0 +1,105 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+</head>
+<body>
+    <script>
+        window.requestFileSystem = window.requestFileSystem || window.webkitRequestFileSystem;
+        window.BlobBuilder = window.BlobBuilder || window.MSBlobBuilder || window.WebKitBlobBuilder;
+
+        //window.TEMPORARY, window.PERSISTENT
+        window.requestFileSystem(window.TEMPORARY, 100, sikerCallback, hibaCallback);
+
+
+        function hibaCallback(e) {
+
+            var msg = "";
+
+            switch (e.code) {
+                case FileError.QUOTA_EXCEEDED_ERR:
+                    msg = 'QUOTA_EXCEEDED_ERR';
+                    break;
+                case FileError.NOT_FOUND_ERR:
+                    msg = 'NOT_FOUND_ERR';
+                    break;
+                case FileError.SECURITY_ERR:
+                    msg = 'SECURITY_ERR';
+                    break;
+                case FileError.INVALID_MODIFICATION_ERR:
+                    msg = 'INVALID_MODIFICATION_ERR';
+                    break;
+                case FileError.INVALID_STATE_ERR:
+                    msg = 'INVALID_STATE_ERR';
+                    break;
+                default:
+                    msg = 'Unknown Error';
+                    break;
+            };
+
+            console.log("hiba volt: " + msg);
+
+        }
+
+
+        function sikerCallback(fs) {
+
+            //alert(fs.name);
+
+            //írás
+            //fs.root.getFile("repa.txt", { create: true, exclusive: true });
+            fs.root.getFile("repa.txt", { create: true }, fileMegvan, hibaCallback);
+
+            //olvasás
+            //fs.root.getFile("repa.txt", {}, fileOlvashato, hibaCallback);
+            //
+        }
+
+        function fileMegvan(fileEntry) {
+            fileEntry.createWriter(writerMegvan, hibaCallback);
+        }
+
+        function writerMegvan(fileWriter) {
+
+            fileWriter.onwriteend = function (e) {
+                console.log("file kiirva");
+            }
+
+            fileWriter.onerror = function (e) {
+            }
+
+            var bb = new BlobBuilder();
+            bb.append("Hello, a ligetben nagyszeru!");
+
+            fileWriter.write(bb.getBlob("text/plain"));
+        }
+
+
+        function fileOlvashato(fileEntry) {
+            fileEntry.file(olvasoMegvan, hibaCallback);
+
+            var txt = document.createElement("a");
+            txt.href = fileEntry.toURL();
+            txt.innerHTML = "file";
+            document.body.appendChild(txt);
+        }
+
+
+        function olvasoMegvan(fileObj) {
+            var olvaso = new FileReader();
+
+            olvaso.onloadend = function (e) {
+
+                var txt = document.createElement("textarea");
+                txt.value = this.result;
+                document.body.appendChild(txt);
+
+
+            }
+
+            olvaso.readAsText(fileObj);
+        }
+
+    </script>
+</body>
+</html>

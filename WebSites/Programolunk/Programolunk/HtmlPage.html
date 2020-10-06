@@ -1,0 +1,49 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+</head>
+<body>
+
+    <button onclick="Figyelem()" >nyomj meg</button>
+    
+    <div id="szoveg">
+        Ez egy div
+    </div>
+    
+    <script>
+
+        function SajatObjektum(input) {
+            this.titkos = input;
+        }
+
+
+
+        function Figyelem(e) {
+
+
+
+            var atadandoAdat;
+
+
+            atadandoAdat = new SajatObjektum("margarin");
+
+            SajatObjektum.prototype.magassag = 8;
+
+            var teszt = new SajatObjektum("vaj");
+            teszt.masik = "zsir";
+
+
+            Munka(teszt);
+        }
+
+        var s = document.getElementById("szoveg");
+        s.onclick = Figyelem;
+
+
+        function Munka(adat) {
+            alert(adat.titkos);
+        }
+    </script>
+</body>
+</html>

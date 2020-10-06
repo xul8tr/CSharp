@@ -1,0 +1,42 @@
+  Number of Clone Classes: 4
+  Clone Classes: 
+  Clone Class
+    Number of instances: 3
+    Length: 11
+    Metrics: []
+    Instances: 
+      D:\Projects\SpaghettiCode\SpaghettiCode\Program.cs(240) : [Ln:240, Col:17 - Ln:250, Col:17]
+      D:\Projects\SpaghettiCode\SpaghettiCode\Program.cs(320) : [Ln:320, Col:29 - Ln:330, Col:29]
+      D:\Projects\SpaghettiCode\SpaghettiCode\Program.cs(373) : [Ln:373, Col:41 - Ln:383, Col:41]
+
+
+  Clone Class
+    Number of instances: 3
+    Length: 13
+    Metrics: []
+    Instances: 
+      D:\Projects\SpaghettiCode\SpaghettiCode\Program.cs(226) : [Ln:226, Col:17 - Ln:238, Col:17]
+      D:\Projects\SpaghettiCode\SpaghettiCode\Program.cs(306) : [Ln:306, Col:29 - Ln:318, Col:29]
+      D:\Projects\SpaghettiCode\SpaghettiCode\Program.cs(359) : [Ln:359, Col:41 - Ln:371, Col:41]
+
+
+  Clone Class
+    Number of instances: 5
+    Length: 11
+    Metrics: []
+    Instances: 
+      D:\Projects\SpaghettiCode\SpaghettiCode\Program.cs(34) : [Ln:34, Col:21 - Ln:44, Col:21]
+      D:\Projects\SpaghettiCode\SpaghettiCode\Program.cs(86) : [Ln:86, Col:21 - Ln:96, Col:21]
+      D:\Projects\SpaghettiCode\SpaghettiCode\Program.cs(148) : [Ln:148, Col:21 - Ln:158, Col:21]
+      D:\Projects\SpaghettiCode\SpaghettiCode\Program.cs(190) : [Ln:190, Col:21 - Ln:200, Col:21]
+      D:\Projects\SpaghettiCode\SpaghettiCode\Program.cs(268) : [Ln:268, Col:25 - Ln:278, Col:25]
+
+
+  Clone Class
+    Number of instances: 3
+    Length: 13
+    Metrics: []
+    Instances: 
+      D:\Projects\SpaghettiCode\SpaghettiCode\Program.cs(72) : [Ln:72, Col:21 - Ln:84, Col:21]
+      D:\Projects\SpaghettiCode\SpaghettiCode\Program.cs(133) : [Ln:133, Col:25 - Ln:145, Col:25]
+      D:\Projects\SpaghettiCode\SpaghettiCode\Program.cs(176) : [Ln:176, Col:21 - Ln:188, Col:21]

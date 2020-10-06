@@ -1,0 +1,1 @@
+﻿alert(document.getElementById("szoveg"));

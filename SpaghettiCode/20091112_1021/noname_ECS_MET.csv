@@ -1,0 +1,29 @@
+Namespace Level Metrics
+UniqueName;QualifiedName;Name;Parent;Component;BCP;DP;FUP;LSP;RHP;
+SpaghettiCode~Ns;SpaghettiCode;SpaghettiCode;global namespace;SpaghettiCode;0;1;0;3;2
+global namespace;global namespace;global namespace;;;0;1;0;3;2
+
+Class Level Metrics
+UniqueName;Kind;Name;QualifiedName;Parent;Component;Path;Line;Col;EndLine;EndCol;BCP;DP;FUP;LSP;RHP;
+SpaghettiCode:Program~Cl;Class;Program;SpaghettiCode.Program;SpaghettiCode~Ns;SpaghettiCode;D:\Projects\SpaghettiCode\SpaghettiCode\Program.cs;11;5;231;5;0;1;0;3;2
+
+Function Level Metrics
+UniqueName;Name;QualifiedName;Parent;Component;Path;Line;Col;EndLine;EndCol;BCP;DP;FUP;LSP;RHP;
+
+Method Level Metrics
+UniqueName;Name;QualifiedName;Parent;Component;Path;Line;Col;EndLine;EndCol;BCP;DP;FUP;LSP;RHP;
+SpaghettiCode:Program.GetFileText@System:String~Cl@(System:String~Cl)~Fm;GetFileText;SpaghettiCode.Program.GetFileText;SpaghettiCode:Program~Cl;SpaghettiCode;D:\Projects\SpaghettiCode\SpaghettiCode\Program.cs;165;9;188;9;0;0;0;0;0
+SpaghettiCode:Program.GetKey@System:ConsoleKeyInfo~St@(System:Collections:Generic:List<T>~Clg<System:Char~St>~Gi$System:ConsoleKey~E$System:ConsoleKey~E)~Fm;GetKey;SpaghettiCode.Program.GetKey;SpaghettiCode:Program~Cl;SpaghettiCode;D:\Projects\SpaghettiCode\SpaghettiCode\Program.cs;194;9;211;9;0;0;0;1;0
+SpaghettiCode:Program.GetKey@System:ConsoleKeyInfo~St@(System:Collections:Generic:List<T>~Clg<System:Char~St>~Gi$System:ConsoleKey~E)~Fm;GetKey;SpaghettiCode.Program.GetKey;SpaghettiCode:Program~Cl;SpaghettiCode;D:\Projects\SpaghettiCode\SpaghettiCode\Program.cs;190;9;193;9;0;0;0;0;0
+SpaghettiCode:Program.Main@System:Void~St@(System:String~Cl[])~Fm;Main;SpaghettiCode.Program.Main;SpaghettiCode:Program~Cl;SpaghettiCode;D:\Projects\SpaghettiCode\SpaghettiCode\Program.cs;13;9;138;9;0;0;0;0;0
+SpaghettiCode:Program.WriteAndRespond@System:ConsoleKeyInfo~St@(System:Int32~St$System:Collections:Generic:List<T>~Clg<System:Char~St>~Gi$System:Text:StringBuilder~Cl$System:Collections:Generic:List<T>~Clg<System:String~Cl>~Gi$System:Int32~St$System:String~Cl$System:Int32~St$System:ConsoleKey~E$System:ConsoleKey~E)~Fm;WriteAndRespond;SpaghettiCode.Program.WriteAndRespond;SpaghettiCode:Program~Cl;SpaghettiCode;D:\Projects\SpaghettiCode\SpaghettiCode\Program.cs;140;9;157;9;0;0;0;0;0
+SpaghettiCode:Program.WriteAndRespond@System:ConsoleKeyInfo~St@(System:Int32~St$System:Collections:Generic:List<T>~Clg<System:Char~St>~Gi$System:Text:StringBuilder~Cl$System:Collections:Generic:List<T>~Clg<System:String~Cl>~Gi$System:Int32~St$System:String~Cl$System:Int32~St)~Fm;WriteAndRespond;SpaghettiCode.Program.WriteAndRespond;SpaghettiCode:Program~Cl;SpaghettiCode;D:\Projects\SpaghettiCode\SpaghettiCode\Program.cs;159;9;163;9;0;0;0;0;0
+SpaghettiCode:Program.WriteChar@System:Void~St@(System:Int32~St$System:Collections:Generic:List<T>~Clg<System:String~Cl>~Gi$System:Int32~St$System:Int32~St)~Fm;WriteChar;SpaghettiCode.Program.WriteChar;SpaghettiCode:Program~Cl;SpaghettiCode;D:\Projects\SpaghettiCode\SpaghettiCode\Program.cs;213;9;230;9;0;0;0;1;0
+
+Component Level Metrics
+UniqueName;BCP;DP;FUP;LSP;RHP;
+SpaghettiCode;0;1;0;3;2
+
+Class Parts Level Metrics
+UniqueName;Kind;Parent;Component;Path;Line;Col;EndLine;EndCol;
+

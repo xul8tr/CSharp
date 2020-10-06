@@ -1,0 +1,25 @@
+﻿<UserControl x:Class="Bomberman.UIElements.BombermanField"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Bomberman.UIElements"
+             DataContext="{Binding RelativeSource={RelativeSource Self}}"
+             mc:Ignorable="d" 
+             d:DesignHeight="20" d:DesignWidth="20">
+    <Grid Name="E_MainContainer" Margin="1, 1, 1, 1">
+        <Border Name="E_BaseBorder" BorderBrush="Black" Background="Gray" BorderThickness="2" Margin="0,0,0,0">
+            <Grid>
+                <Image Name="E_MineImage" Source="/Bomberman;component/Resources/akna.png" Margin="2, 1, 1, 1" Visibility="Hidden"/>
+                <Image Name="E_FlagImage" Source="/Bomberman;component/Resources/zaszlo.png" Margin="2, 1, 1, 1" Visibility="Hidden"/>
+                <Image Name="E_RedPlayerImage" Source="/Bomberman;component/Resources/RedPlayer.png" Visibility="Hidden"/>
+                <Image Name="E_GreenPlayerImage" Source="/Bomberman;component/Resources/GreenPlayer.png" Visibility="Hidden"/>
+                <Image Name="E_BluePlayerImage" Source="/Bomberman;component/Resources/BluePlayer.png" Visibility="Hidden"/>
+                <Image Name="E_YellowPlayerImage" Source="/Bomberman;component/Resources/YellowPlayer.png" Visibility="Hidden"/>
+                <Image Name="E_ExplosionImage" Source="/Bomberman;component/Resources/Explosion.png" Visibility="Hidden"/>
+                <Image Name="E_WallImage" Source="/Bomberman;component/Resources/Wall.png" Visibility="Hidden"/>
+                <Image Name="E_BombImage" Source="/Bomberman;component/Resources/bomb.png" Visibility="Hidden"/>
+            </Grid>
+        </Border>
+    </Grid>
+</UserControl>

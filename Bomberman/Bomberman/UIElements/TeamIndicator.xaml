@@ -1,0 +1,15 @@
+﻿<UserControl x:Class="Bomberman.UIElements.TeamIndicator"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Bomberman.UIElements"
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="300">
+    <Grid x:Name="E_MainGrid">
+        <Image x:Name="E_ActiveImage" Source="/Bomberman;component/Resources/Arrows-Forward-icon.png" Height="20" Width="150" HorizontalAlignment="Left" Visibility="Hidden"></Image>
+        <Border x:Name="E_ColorBorder" BorderBrush="Black" BorderThickness="2" Margin="25, 0, 0, 0" Background="{Binding TeamColorBrush}" Height="40"></Border>
+        <Label x:Name="E_TeamNameLabel" Content="{Binding Name}" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="30, 2, 20, 2" FontWeight="Bold" FontSize="14" ></Label>
+        <Label x:Name="E_Points" Content="{Binding Points}" VerticalAlignment="Center" HorizontalAlignment="Right" Margin="30, 2, 5, 2" FontWeight="Bold" FontSize="14" ></Label>
+    </Grid>
+</UserControl>

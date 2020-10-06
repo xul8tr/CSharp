@@ -1,0 +1,3 @@
+1. Copy BuildSln.cmd in "c:\Program Files\evosoft\" 
+2. execute VisualStudio.Launcher.sln.reg
+done

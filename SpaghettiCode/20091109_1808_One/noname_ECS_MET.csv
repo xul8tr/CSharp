@@ -1,0 +1,27 @@
+Namespace Level Metrics
+UniqueName;QualifiedName;Name;Parent;Component;BCP;DP;FUP;LSP;RHP;
+SpaghettiCode~Ns;SpaghettiCode;SpaghettiCode;global namespace;SpaghettiCode;0;1;0;3;2
+global namespace;global namespace;global namespace;;;0;1;0;3;2
+
+Class Level Metrics
+UniqueName;Kind;Name;QualifiedName;Parent;Component;Path;Line;Col;EndLine;EndCol;BCP;DP;FUP;LSP;RHP;
+SpaghettiCode:Program~Cl;Class;Program;SpaghettiCode.Program;SpaghettiCode~Ns;SpaghettiCode;D:\Projects\SpaghettiCode\SpaghettiCode\Program.cs;11;5;261;5;0;1;0;3;2
+
+Function Level Metrics
+UniqueName;Name;QualifiedName;Parent;Component;Path;Line;Col;EndLine;EndCol;BCP;DP;FUP;LSP;RHP;
+
+Method Level Metrics
+UniqueName;Name;QualifiedName;Parent;Component;Path;Line;Col;EndLine;EndCol;BCP;DP;FUP;LSP;RHP;
+SpaghettiCode:Program.GetFileText@System:String~Cl@(System:String~Cl)~Fm;GetFileText;SpaghettiCode.Program.GetFileText;SpaghettiCode:Program~Cl;SpaghettiCode;D:\Projects\SpaghettiCode\SpaghettiCode\Program.cs;195;9;218;9;0;0;0;0;0
+SpaghettiCode:Program.GetKey@System:ConsoleKeyInfo~St@(System:Collections:Generic:List<T>~Clg<System:Char~St>~Gi$System:ConsoleKey~E$System:ConsoleKey~E)~Fm;GetKey;SpaghettiCode.Program.GetKey;SpaghettiCode:Program~Cl;SpaghettiCode;D:\Projects\SpaghettiCode\SpaghettiCode\Program.cs;224;9;241;9;0;0;0;1;0
+SpaghettiCode:Program.GetKey@System:ConsoleKeyInfo~St@(System:Collections:Generic:List<T>~Clg<System:Char~St>~Gi$System:ConsoleKey~E)~Fm;GetKey;SpaghettiCode.Program.GetKey;SpaghettiCode:Program~Cl;SpaghettiCode;D:\Projects\SpaghettiCode\SpaghettiCode\Program.cs;220;9;223;9;0;0;0;0;0
+SpaghettiCode:Program.Main@System:Void~St@(System:String~Cl[])~Fm;Main;SpaghettiCode.Program.Main;SpaghettiCode:Program~Cl;SpaghettiCode;D:\Projects\SpaghettiCode\SpaghettiCode\Program.cs;13;9;193;9;0;0;0;0;0
+SpaghettiCode:Program.WriteChar@System:Void~St@(System:Int32~St$System:Collections:Generic:List<T>~Clg<System:String~Cl>~Gi$System:Int32~St$System:Int32~St)~Fm;WriteChar;SpaghettiCode.Program.WriteChar;SpaghettiCode:Program~Cl;SpaghettiCode;D:\Projects\SpaghettiCode\SpaghettiCode\Program.cs;243;9;260;9;0;0;0;1;0
+
+Component Level Metrics
+UniqueName;BCP;DP;FUP;LSP;RHP;
+SpaghettiCode;0;1;0;3;2
+
+Class Parts Level Metrics
+UniqueName;Kind;Parent;Component;Path;Line;Col;EndLine;EndCol;
+

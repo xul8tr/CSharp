@@ -1,0 +1,36 @@
+﻿@{
+    ViewBag.Title = "Index";
+}
+<script src="../../Scripts/jquery-1.7.1.js"></script>
+<h2>Index</h2>
+<form name="teszt">
+    <button name="but" id="gomb">ajaxol</button>
+    <input type="text" name="dyn"  value=""> 
+</form>
+<div id="kijelzo"></div>
+<script>
+    $("#gomb").click(gombnyomas);
+
+    function gombnyomas() {
+        document.teszt.dyn.title = "hello";
+        $("#kijelzo").text("OK");
+        $.ajax({
+            url: "http://localhost:54963/Home/GetData",
+            type: "POST",
+            data: {alma: "alama"},
+            complete: keszvan,
+            success: siker
+
+        });
+    }
+
+    function keszvan(x, status) {
+        
+        //alert(status);
+    }
+
+    function siker(adat) {
+        $("#kijelzo").text("Fixadat: " + adat.Fixadat + "<br/>Beküldött adat: " + adat.Bekuldott + "<br/>Id: " + adat.Id);
+        //alert(adat.Fixadat + " " + adat.Bekuldott);
+    }
+</script>

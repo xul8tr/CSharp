@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Class Name="ELTE.Algorithms.GraphDisplay.Algorithm.BreathFirstSearchAlgorithm">
+    <Position X="0.5" Y="5.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEACAAAgAAAAAACAAAAAAAAAAIIAAAAAAAAAA=</HashCode>
+      <FileName>Algorithm\BreathFirstSearchAlgorithm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ELTE.Algorithms.GraphDisplay.Algorithm.DijkstraAlgorithm">
+    <Position X="3" Y="5.25" Width="4.25" />
+    <InheritanceLine Type="ELTE.Algorithms.GraphDisplay.Algorithm.GraphAlgorithm" ManuallyRouted="true">
+      <Path>
+        <Point X="3.375" Y="4.411" />
+        <Point X="3.375" Y="4.786" />
+        <Point X="5.125" Y="4.786" />
+        <Point X="5.125" Y="5.25" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AQAAAAAEACAAAgAAAAgACAAAAAAAAAAIIAQAAAABAAA=</HashCode>
+      <FileName>Algorithm\DijkstraAlgorithm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ELTE.Algorithms.GraphDisplay.Algorithm.GraphAlgorithm">
+    <Position X="2" Y="1.25" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEACAADgAAAAAAAAAAAAAAAAAIIAAAAAAAAAI=</HashCode>
+      <FileName>Algorithm\GraphAlgorithm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ELTE.Algorithms.GraphDisplay.DataStructure.Graph">
+    <Position X="13.5" Y="0.75" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>ACAQgIAARAAAAgEAAAAIBAFAAAAEAgAZQAAAEABJABI=</HashCode>
+      <FileName>DataStructure\Graph.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ELTE.Algorithms.GraphDisplay.DataStructure.GraphArc">
+    <Position X="7.5" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAAgAAAgAEAAAAACAAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DataStructure\GraphArc.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ELTE.Algorithms.GraphDisplay.DataStructure.GraphNode">
+    <Position X="7.5" Y="3.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAAAAAAgAEAEIAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DataStructure\GraphNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ELTE.Algorithms.GraphDisplay.MainForm">
+    <Position X="9.5" Y="0.5" Width="3.75" />
+    <Members>
+      <Field Name="_ButtonRedrawGraph" Hidden="true" />
+      <Field Name="_ListAlgorithmResults" Hidden="true" />
+      <Field Name="_MenuAlgorithm" Hidden="true" />
+      <Field Name="_MenuAlgorithmBFS" Hidden="true" />
+      <Field Name="_MenuAlgorithmBFSStartStop" Hidden="true" />
+      <Field Name="_MenuAlgorithmDijkstraStartStop" Hidden="true" />
+      <Field Name="_MenuFile" Hidden="true" />
+      <Field Name="_MenuFileExit" Hidden="true" />
+      <Field Name="_MenuFileNew" Hidden="true" />
+      <Field Name="_MenuFileOpen" Hidden="true" />
+      <Field Name="_MenuFileSave" Hidden="true" />
+      <Field Name="_MenuStrip" Hidden="true" />
+      <Field Name="_OpenFileDialog" Hidden="true" />
+      <Field Name="_SaveFileDialog" Hidden="true" />
+      <Field Name="_StatusLabel" Hidden="true" />
+      <Field Name="_StatusStrip" Hidden="true" />
+      <Field Name="autoStartToolStripMenuItem" Hidden="true" />
+      <Field Name="components" Hidden="true" />
+      <Field Name="dijkstraToolStripMenuItem" Hidden="true" />
+      <Method Name="Dispose" Hidden="true" />
+      <Field Name="groupBox1" Hidden="true" />
+      <Method Name="InitializeComponent" Hidden="true" />
+      <Field Name="toolStripMenuItem1" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>sAQIMCBDDCQB2gDSAASAgEACAgAAAQABICBAICKo4Bo=</HashCode>
+      <FileName>MainForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

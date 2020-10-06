@@ -1,0 +1,7 @@
+UniqueName;Parent;Kind;Path;Line;Col;EndLine;EndCol;WarningID
+SpaghettiCode:Program~Cl;SpaghettiCode~Ns;Class;D:\Projects\SpaghettiCode\SpaghettiCode\Program.cs;11;5;274;5;ECS1005
+SpaghettiCode:Program~Cl;SpaghettiCode~Ns;Class;D:\Projects\SpaghettiCode\SpaghettiCode\Program.cs;11;5;274;5;ECS2018-1
+SpaghettiCode:Program~Cl;SpaghettiCode~Ns;Class;D:\Projects\SpaghettiCode\SpaghettiCode\Program.cs;11;5;274;5;ECS2018-2
+SpaghettiCode:Program~Cl;SpaghettiCode~Ns;Class;D:\Projects\SpaghettiCode\SpaghettiCode\Program.cs;11;5;274;5;ECS3025
+SpaghettiCode:Program.WriteChar@System:Void~St@(System:Int32~St$System:Collections:Generic:List<T>~Clg<System:String~Cl>~Gi$System:Int32~St$System:Int32~St)~Fm;SpaghettiCode:Program~Cl;Method;D:\Projects\SpaghettiCode\SpaghettiCode\Program.cs;263;17;270;17;ECS1011
+SpaghettiCode:Program.GetKey@System:ConsoleKeyInfo~St@(System:Collections:Generic:List<T>~Clg<System:Char~St>~Gi$System:ConsoleKey~E$System:ConsoleKey~E)~Fm;SpaghettiCode:Program~Cl;Method;D:\Projects\SpaghettiCode\SpaghettiCode\Program.cs;242;13;252;13;ECS1011

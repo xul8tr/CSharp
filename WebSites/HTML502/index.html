@@ -1,0 +1,44 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <link href="cicoma.css" rel="stylesheet" />
+    <script src="jquery-1.7.1.min.js"></script>
+    <script defer src="JavaScript.js"></script>
+    <script src="jquery.validate.min.js"></script>
+    <script src="jquery.validate.unobtrusive.min.js"></script>
+</head>
+<body>
+    
+    <form autocomplete="off" method="post" action="http://localhost:8080/form" target="ide">
+        <fieldset>
+
+            <legend>Jelentkezesi adatok</legend>
+            <div class="note">Megsem ön...</div>
+            <div>
+                <label for="nevid">Nevem</label>
+                <input name="nev" id="nevid" required/>
+            </div>
+            <div>
+            <label>Telefon</label>
+            <input data-lajos="mari" pattern="^\d{3}-\d{4}$" title="111-1111 formátum kell" name="telefon" />
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <legend>Szamlazasi cim</legend>
+            <div>
+                <label>Cegnev</label>
+                <input data-val="true" data-val-required="Hibaüzenet" name="ceg" />
+                <span data
+            </div>
+            <div>
+                <label>Varos</label>
+                <input name="varos" />
+            </div>
+        </fieldset>
+
+        <button>OK</button>
+    </form>
+</body>
+</html>
